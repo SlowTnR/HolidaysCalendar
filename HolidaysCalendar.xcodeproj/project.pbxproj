@@ -13,6 +13,8 @@
 		4D6126BD257FB654006F2DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6126BB257FB654006F2DD5 /* Main.storyboard */; };
 		4D6126BF257FB655006F2DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6126BE257FB655006F2DD5 /* Assets.xcassets */; };
 		4D6126C2257FB655006F2DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6126C0257FB655006F2DD5 /* LaunchScreen.storyboard */; };
+		4D6126CB257FB733006F2DD5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4D6126CA257FB733006F2DD5 /* .gitignore */; };
+		4D6126CE257FB754006F2DD5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6126CD257FB754006F2DD5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4D6126BE257FB655006F2DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6126C1257FB655006F2DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6126C3257FB655006F2DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6126CA257FB733006F2DD5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4D6126CD257FB754006F2DD5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				4D6126BE257FB655006F2DD5 /* Assets.xcassets */,
 				4D6126C0257FB655006F2DD5 /* LaunchScreen.storyboard */,
 				4D6126C3257FB655006F2DD5 /* Info.plist */,
+				4D6126CA257FB733006F2DD5 /* .gitignore */,
+				4D6126CD257FB754006F2DD5 /* Constants.swift */,
 			);
 			path = HolidaysCalendar;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6126CB257FB733006F2DD5 /* .gitignore in Resources */,
 				4D6126C2257FB655006F2DD5 /* LaunchScreen.storyboard in Resources */,
 				4D6126BF257FB655006F2DD5 /* Assets.xcassets in Resources */,
 				4D6126BD257FB654006F2DD5 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 				4D6126BA257FB654006F2DD5 /* ViewController.swift in Sources */,
 				4D6126B6257FB654006F2DD5 /* AppDelegate.swift in Sources */,
 				4D6126B8257FB654006F2DD5 /* SceneDelegate.swift in Sources */,
+				4D6126CE257FB754006F2DD5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
